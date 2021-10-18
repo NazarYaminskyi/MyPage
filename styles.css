@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Zilla Slab", cursive;
+}
+.nav{
+  min-heigh: 40px;
+  background-color: black;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.menu{
+  color: #fff;
+  display: flex;
+  flex-flow: row;
+  padding: 0;
+  margin: 0 auto;
+  list-style-type: none;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.name{
+  margin-right: auto;
+}
+
+.menu li{
+  padding: 10px;
+  justify-content: space-between;
+}
+
+header {
+  font-size: 20px;
+  padding-top: 80px;
+  text-align: center;
+  width: 100%;
+  background-image: url('https://dslv9ilpbe7p1.cloudfront.net/4f6cCq-b3Tpbjv8hdAquzQ_store_banner_image.jpeg');
+  background-size: cover;
+  height: 500px;
+}
+
+header img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid black;
+  transition: all .5s;
+}
+
+header img:hover {
+  transform:scale(1.1) rotate(10deg);
+}
+
+.tag {
+  color: #fff;
+  background-color: black;
+  display: table;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.subtitle {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.content {
+  display: flex;
+  flex-flow: row;
+  margin: 0;
+  justify-content: space-around;
+
+}
+
+.card {
+  font-size: 20px;
+  max-width: 500px;
+  padding: 20px;
+  margin: 10px;
+  border-bottom: 3px solid gray;
+  border-radius: 5px;
+}
+
+footer {
+  border-top: 3px solid #636363;
+  text-align: center;
+  padding: 30px;
+  background-color: #c5c5c5;
+}
+
+.link {
+  color: #636363;
+  font-size: 20px;
+}
+
+.tag-list {
+  margin: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row;
+  color: #fff;
+}
+
+.tag-yellow {
+  background-color: #ff8700;
+}
+
+.tag-blue {
+  background-color: #0070ff;
+}
